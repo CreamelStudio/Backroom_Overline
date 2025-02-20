@@ -39,7 +39,12 @@ public class CameraMove : MonoBehaviour
 
     void Update()
     {
-        if(isTurn) Rotate();
+        if (isTurn)
+        {
+            Rotate();
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
         else
         {
             Cursor.lockState = CursorLockMode.None;
