@@ -12,6 +12,7 @@ TagManager:
   - BigLight
   - Point
   - Dead
+  - Paper
   layers:
   - Default
   - TransparentFX

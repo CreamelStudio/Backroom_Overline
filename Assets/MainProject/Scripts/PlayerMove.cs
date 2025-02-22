@@ -21,6 +21,7 @@ public class PlayerMove : MonoBehaviour
     public AudioClip cameraShut;
     private Vector3 movement;
 
+
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");

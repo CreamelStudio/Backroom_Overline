@@ -8,4 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainProject/Scenes/Stage1.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/MainProject/Scenes/Clear.unity
+    guid: ec8aa7312c98f20498434a1beb125f2a
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
